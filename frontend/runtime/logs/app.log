@@ -22779,3 +22779,1114 @@ $_SERVER = [
     ]
     'argc' => 1
 ]
+2019-03-17 22:38:17 [127.0.0.1][-][q7tqe57f3putolkmjr9g7udmc7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "anketa".' in H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('anketa', Array)
+#1 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 H:\OpenServer\domains\job50.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 H:\OpenServer\domains\job50.git\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-03-17 22:38:17 [127.0.0.1][-][q7tqe57f3putolkmjr9g7udmc7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-frontend' => 'q7tqe57f3putolkmjr9g7udmc7'
+    '_csrf-frontend' => '6a865de27bd249c37e32a8417368ce2b4d708464da7acbfabe309cf43810d1efa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9wcEczsUT2s9XYtid6oT4UtFES3DlaMp\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'job50.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-frontend=q7tqe57f3putolkmjr9g7udmc7; _csrf-frontend=6a865de27bd249c37e32a8417368ce2b4d708464da7acbfabe309cf43810d1efa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229wcEczsUT2s9XYtid6oT4UtFES3DlaMp%22%3B%7D'
+    'PATH' => 'h:\\openserver\\modules\\php\\PHP-5.6\\ext;h:\\openserver\\modules\\php\\PHP-5.6\\pear;h:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;h:\\openserver\\modules\\php\\PHP-5.6;h:\\openserver\\modules\\wget\\bin;h:\\openserver\\modules\\database\\MySQL-5.6\\bin;h:\\openserver\\modules\\http\\Apache-2.4\\bin;h:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'job50.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/job50.git/frontend/web/index.php'
+    'REMOTE_PORT' => '52590'
+    'REDIRECT_URL' => '/frontend/web/anketa'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/anketa'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1552840697.38
+    'REQUEST_TIME' => 1552840697
+    'argv' => []
+    'argc' => 0
+]
+2019-03-18 17:36:25 [127.0.0.1][-][-][error][yii\web\HeadersAlreadySentException] exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in H:\OpenServer\domains\job50.git\vendor\dompdf\dompdf\src\Adapter\CPDF.php on line 1154.' in H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 H:\OpenServer\domains\job50.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2019-03-18 17:36:23 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-frontend' => '1bovgdf8cmoeicv7lgb3h29f54'
+    '_csrf-frontend' => 'ac518ea7f6432fd3fabf6f45724ae86664a2509bcd4e777057ced4ef515e7ecca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"WShqRL5oii5Gm2rv9l_x-AB-adVJPjBB\";}'
+    'advanced-backend' => 'tird5epajkhg9g20k5f9ot2j26'
+    '_csrf-backend' => '8aeb89107d024b77173b43ad1b67a4a2930099f15c54f7ed2e61b2fd67e5a048a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"b76xnH8nfoUGDYjiz-QI33QbJg38qEK0\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'job50.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PURPOSE' => 'prefetch'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-frontend=1bovgdf8cmoeicv7lgb3h29f54; _csrf-frontend=ac518ea7f6432fd3fabf6f45724ae86664a2509bcd4e777057ced4ef515e7ecca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22WShqRL5oii5Gm2rv9l_x-AB-adVJPjBB%22%3B%7D; advanced-backend=tird5epajkhg9g20k5f9ot2j26; _csrf-backend=8aeb89107d024b77173b43ad1b67a4a2930099f15c54f7ed2e61b2fd67e5a048a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22b76xnH8nfoUGDYjiz-QI33QbJg38qEK0%22%3B%7D'
+    'PATH' => 'h:\\openserver\\modules\\php\\PHP-5.6\\ext;h:\\openserver\\modules\\php\\PHP-5.6\\pear;h:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;h:\\openserver\\modules\\php\\PHP-5.6;h:\\openserver\\modules\\wget\\bin;h:\\openserver\\modules\\database\\MySQL-5.6\\bin;h:\\openserver\\modules\\http\\Apache-2.4\\bin;h:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'job50.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/job50.git/frontend/web/index.php'
+    'REMOTE_PORT' => '63174'
+    'REDIRECT_URL' => '/frontend/web/site/rezult'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/rezult'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1552908983.695
+    'REQUEST_TIME' => 1552908983
+    'argv' => []
+    'argc' => 0
+]
+2019-03-18 17:36:35 [127.0.0.1][-][-][error][yii\web\HeadersAlreadySentException] exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in H:\OpenServer\domains\job50.git\vendor\dompdf\dompdf\src\Adapter\CPDF.php on line 1154.' in H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 H:\OpenServer\domains\job50.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2019-03-18 17:36:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '12'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-frontend' => '1bovgdf8cmoeicv7lgb3h29f54'
+    '_csrf-frontend' => 'ac518ea7f6432fd3fabf6f45724ae86664a2509bcd4e777057ced4ef515e7ecca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"WShqRL5oii5Gm2rv9l_x-AB-adVJPjBB\";}'
+    'advanced-backend' => 'tird5epajkhg9g20k5f9ot2j26'
+    '_csrf-backend' => '8aeb89107d024b77173b43ad1b67a4a2930099f15c54f7ed2e61b2fd67e5a048a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"b76xnH8nfoUGDYjiz-QI33QbJg38qEK0\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'job50.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-frontend=1bovgdf8cmoeicv7lgb3h29f54; _csrf-frontend=ac518ea7f6432fd3fabf6f45724ae86664a2509bcd4e777057ced4ef515e7ecca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22WShqRL5oii5Gm2rv9l_x-AB-adVJPjBB%22%3B%7D; advanced-backend=tird5epajkhg9g20k5f9ot2j26; _csrf-backend=8aeb89107d024b77173b43ad1b67a4a2930099f15c54f7ed2e61b2fd67e5a048a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22b76xnH8nfoUGDYjiz-QI33QbJg38qEK0%22%3B%7D'
+    'PATH' => 'h:\\openserver\\modules\\php\\PHP-5.6\\ext;h:\\openserver\\modules\\php\\PHP-5.6\\pear;h:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;h:\\openserver\\modules\\php\\PHP-5.6;h:\\openserver\\modules\\wget\\bin;h:\\openserver\\modules\\database\\MySQL-5.6\\bin;h:\\openserver\\modules\\http\\Apache-2.4\\bin;h:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'job50.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/job50.git/frontend/web/index.php'
+    'REMOTE_PORT' => '63194'
+    'REDIRECT_URL' => '/frontend/web/site/rezult'
+    'REDIRECT_QUERY_STRING' => 'id=12'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=12'
+    'REQUEST_URI' => '/site/rezult?id=12'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1552908994.279
+    'REQUEST_TIME' => 1552908994
+    'argv' => [
+        0 => 'id=12'
+    ]
+    'argc' => 1
+]
+2019-03-18 17:36:57 [127.0.0.1][-][-][error][yii\web\HeadersAlreadySentException] exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in H:\OpenServer\domains\job50.git\vendor\dompdf\dompdf\src\Adapter\CPDF.php on line 1154.' in H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 H:\OpenServer\domains\job50.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2019-03-18 17:36:54 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '11'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-frontend' => '1bovgdf8cmoeicv7lgb3h29f54'
+    '_csrf-frontend' => 'ac518ea7f6432fd3fabf6f45724ae86664a2509bcd4e777057ced4ef515e7ecca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"WShqRL5oii5Gm2rv9l_x-AB-adVJPjBB\";}'
+    'advanced-backend' => 'tird5epajkhg9g20k5f9ot2j26'
+    '_csrf-backend' => '8aeb89107d024b77173b43ad1b67a4a2930099f15c54f7ed2e61b2fd67e5a048a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"b76xnH8nfoUGDYjiz-QI33QbJg38qEK0\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'job50.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-frontend=1bovgdf8cmoeicv7lgb3h29f54; _csrf-frontend=ac518ea7f6432fd3fabf6f45724ae86664a2509bcd4e777057ced4ef515e7ecca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22WShqRL5oii5Gm2rv9l_x-AB-adVJPjBB%22%3B%7D; advanced-backend=tird5epajkhg9g20k5f9ot2j26; _csrf-backend=8aeb89107d024b77173b43ad1b67a4a2930099f15c54f7ed2e61b2fd67e5a048a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22b76xnH8nfoUGDYjiz-QI33QbJg38qEK0%22%3B%7D'
+    'PATH' => 'h:\\openserver\\modules\\php\\PHP-5.6\\ext;h:\\openserver\\modules\\php\\PHP-5.6\\pear;h:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;h:\\openserver\\modules\\php\\PHP-5.6;h:\\openserver\\modules\\wget\\bin;h:\\openserver\\modules\\database\\MySQL-5.6\\bin;h:\\openserver\\modules\\http\\Apache-2.4\\bin;h:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'job50.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/job50.git/frontend/web/index.php'
+    'REMOTE_PORT' => '63214'
+    'REDIRECT_URL' => '/frontend/web/site/rezult'
+    'REDIRECT_QUERY_STRING' => 'id=11'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=11'
+    'REQUEST_URI' => '/site/rezult?id=11'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1552909014.943
+    'REQUEST_TIME' => 1552909014
+    'argv' => [
+        0 => 'id=11'
+    ]
+    'argc' => 1
+]
+2019-03-18 17:37:56 [127.0.0.1][-][-][error][yii\web\HeadersAlreadySentException] exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in H:\OpenServer\domains\job50.git\vendor\dompdf\dompdf\src\Adapter\CPDF.php on line 1154.' in H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 H:\OpenServer\domains\job50.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2019-03-18 17:37:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '11'
+    '_pjax' => '#p0'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-frontend' => '1bovgdf8cmoeicv7lgb3h29f54'
+    '_csrf-frontend' => 'ac518ea7f6432fd3fabf6f45724ae86664a2509bcd4e777057ced4ef515e7ecca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"WShqRL5oii5Gm2rv9l_x-AB-adVJPjBB\";}'
+    'advanced-backend' => 'tird5epajkhg9g20k5f9ot2j26'
+    '_csrf-backend' => '8aeb89107d024b77173b43ad1b67a4a2930099f15c54f7ed2e61b2fd67e5a048a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"b76xnH8nfoUGDYjiz-QI33QbJg38qEK0\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'job50.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => 'fp1pysp_kzpFF1yVj_N8xDJvbeqhDdKvmTEmV1T57JEcql-ypDerVCN4CdLLqhatSEI8o5I-g83TVhVvJbynoQ=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#p0'
+    'HTTP_REFERER' => 'http://job50.git/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-frontend=1bovgdf8cmoeicv7lgb3h29f54; _csrf-frontend=ac518ea7f6432fd3fabf6f45724ae86664a2509bcd4e777057ced4ef515e7ecca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22WShqRL5oii5Gm2rv9l_x-AB-adVJPjBB%22%3B%7D; advanced-backend=tird5epajkhg9g20k5f9ot2j26; _csrf-backend=8aeb89107d024b77173b43ad1b67a4a2930099f15c54f7ed2e61b2fd67e5a048a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22b76xnH8nfoUGDYjiz-QI33QbJg38qEK0%22%3B%7D'
+    'PATH' => 'h:\\openserver\\modules\\php\\PHP-5.6\\ext;h:\\openserver\\modules\\php\\PHP-5.6\\pear;h:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;h:\\openserver\\modules\\php\\PHP-5.6;h:\\openserver\\modules\\wget\\bin;h:\\openserver\\modules\\database\\MySQL-5.6\\bin;h:\\openserver\\modules\\http\\Apache-2.4\\bin;h:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'job50.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/job50.git/frontend/web/index.php'
+    'REMOTE_PORT' => '63266'
+    'REDIRECT_URL' => '/frontend/web/site/rezult'
+    'REDIRECT_QUERY_STRING' => 'id=11&_pjax=%23p0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=11&_pjax=%23p0'
+    'REQUEST_URI' => '/site/rezult?id=11&_pjax=%23p0'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1552909073.297
+    'REQUEST_TIME' => 1552909073
+    'argv' => [
+        0 => 'id=11&_pjax=%23p0'
+    ]
+    'argc' => 1
+]
+2019-03-18 17:37:57 [127.0.0.1][-][-][error][yii\web\HeadersAlreadySentException] exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in H:\OpenServer\domains\job50.git\vendor\dompdf\dompdf\src\Adapter\CPDF.php on line 1154.' in H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 H:\OpenServer\domains\job50.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2019-03-18 17:37:54 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '11'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-frontend' => '1bovgdf8cmoeicv7lgb3h29f54'
+    '_csrf-frontend' => 'ac518ea7f6432fd3fabf6f45724ae86664a2509bcd4e777057ced4ef515e7ecca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"WShqRL5oii5Gm2rv9l_x-AB-adVJPjBB\";}'
+    'advanced-backend' => 'tird5epajkhg9g20k5f9ot2j26'
+    '_csrf-backend' => '8aeb89107d024b77173b43ad1b67a4a2930099f15c54f7ed2e61b2fd67e5a048a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"b76xnH8nfoUGDYjiz-QI33QbJg38qEK0\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'job50.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://job50.git/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-frontend=1bovgdf8cmoeicv7lgb3h29f54; _csrf-frontend=ac518ea7f6432fd3fabf6f45724ae86664a2509bcd4e777057ced4ef515e7ecca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22WShqRL5oii5Gm2rv9l_x-AB-adVJPjBB%22%3B%7D; advanced-backend=tird5epajkhg9g20k5f9ot2j26; _csrf-backend=8aeb89107d024b77173b43ad1b67a4a2930099f15c54f7ed2e61b2fd67e5a048a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22b76xnH8nfoUGDYjiz-QI33QbJg38qEK0%22%3B%7D'
+    'PATH' => 'h:\\openserver\\modules\\php\\PHP-5.6\\ext;h:\\openserver\\modules\\php\\PHP-5.6\\pear;h:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;h:\\openserver\\modules\\php\\PHP-5.6;h:\\openserver\\modules\\wget\\bin;h:\\openserver\\modules\\database\\MySQL-5.6\\bin;h:\\openserver\\modules\\http\\Apache-2.4\\bin;h:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'job50.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/job50.git/frontend/web/index.php'
+    'REMOTE_PORT' => '63267'
+    'REDIRECT_URL' => '/frontend/web/site/rezult'
+    'REDIRECT_QUERY_STRING' => 'id=11'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=11'
+    'REQUEST_URI' => '/site/rezult?id=11'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1552909074.308
+    'REQUEST_TIME' => 1552909074
+    'argv' => [
+        0 => 'id=11'
+    ]
+    'argc' => 1
+]
+2019-03-18 17:47:29 [127.0.0.1][-][-][error][yii\web\HeadersAlreadySentException] exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in H:\OpenServer\domains\job50.git\vendor\dompdf\dompdf\src\Adapter\CPDF.php on line 1154.' in H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 H:\OpenServer\domains\job50.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2019-03-18 17:47:26 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '10'
+    '_pjax' => '#p0'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-frontend' => '1bovgdf8cmoeicv7lgb3h29f54'
+    '_csrf-frontend' => 'ac518ea7f6432fd3fabf6f45724ae86664a2509bcd4e777057ced4ef515e7ecca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"WShqRL5oii5Gm2rv9l_x-AB-adVJPjBB\";}'
+    'advanced-backend' => 'tird5epajkhg9g20k5f9ot2j26'
+    '_csrf-backend' => '8aeb89107d024b77173b43ad1b67a4a2930099f15c54f7ed2e61b2fd67e5a048a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"b76xnH8nfoUGDYjiz-QI33QbJg38qEK0\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'job50.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => 'R5rSAG26isPqel8Y6XN1PJAyLsinUVn4-_iMQcHmILklreR4A_KyrYwVCl-tKh9V6h9_gZRiCJqxn795sKNriQ=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#p0'
+    'HTTP_REFERER' => 'http://job50.git/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-frontend=1bovgdf8cmoeicv7lgb3h29f54; _csrf-frontend=ac518ea7f6432fd3fabf6f45724ae86664a2509bcd4e777057ced4ef515e7ecca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22WShqRL5oii5Gm2rv9l_x-AB-adVJPjBB%22%3B%7D; advanced-backend=tird5epajkhg9g20k5f9ot2j26; _csrf-backend=8aeb89107d024b77173b43ad1b67a4a2930099f15c54f7ed2e61b2fd67e5a048a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22b76xnH8nfoUGDYjiz-QI33QbJg38qEK0%22%3B%7D'
+    'PATH' => 'h:\\openserver\\modules\\php\\PHP-5.6\\ext;h:\\openserver\\modules\\php\\PHP-5.6\\pear;h:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;h:\\openserver\\modules\\php\\PHP-5.6;h:\\openserver\\modules\\wget\\bin;h:\\openserver\\modules\\database\\MySQL-5.6\\bin;h:\\openserver\\modules\\http\\Apache-2.4\\bin;h:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'job50.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/job50.git/frontend/web/index.php'
+    'REMOTE_PORT' => '50958'
+    'REDIRECT_URL' => '/frontend/web/site/rezult'
+    'REDIRECT_QUERY_STRING' => 'id=10&_pjax=%23p0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=10&_pjax=%23p0'
+    'REQUEST_URI' => '/site/rezult?id=10&_pjax=%23p0'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1552909646.561
+    'REQUEST_TIME' => 1552909646
+    'argv' => [
+        0 => 'id=10&_pjax=%23p0'
+    ]
+    'argc' => 1
+]
+2019-03-18 17:47:30 [127.0.0.1][-][-][error][yii\web\HeadersAlreadySentException] exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in H:\OpenServer\domains\job50.git\vendor\dompdf\dompdf\src\Adapter\CPDF.php on line 1154.' in H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 H:\OpenServer\domains\job50.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2019-03-18 17:47:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '10'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-frontend' => '1bovgdf8cmoeicv7lgb3h29f54'
+    '_csrf-frontend' => 'ac518ea7f6432fd3fabf6f45724ae86664a2509bcd4e777057ced4ef515e7ecca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"WShqRL5oii5Gm2rv9l_x-AB-adVJPjBB\";}'
+    'advanced-backend' => 'tird5epajkhg9g20k5f9ot2j26'
+    '_csrf-backend' => '8aeb89107d024b77173b43ad1b67a4a2930099f15c54f7ed2e61b2fd67e5a048a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"b76xnH8nfoUGDYjiz-QI33QbJg38qEK0\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'job50.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://job50.git/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-frontend=1bovgdf8cmoeicv7lgb3h29f54; _csrf-frontend=ac518ea7f6432fd3fabf6f45724ae86664a2509bcd4e777057ced4ef515e7ecca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22WShqRL5oii5Gm2rv9l_x-AB-adVJPjBB%22%3B%7D; advanced-backend=tird5epajkhg9g20k5f9ot2j26; _csrf-backend=8aeb89107d024b77173b43ad1b67a4a2930099f15c54f7ed2e61b2fd67e5a048a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22b76xnH8nfoUGDYjiz-QI33QbJg38qEK0%22%3B%7D'
+    'PATH' => 'h:\\openserver\\modules\\php\\PHP-5.6\\ext;h:\\openserver\\modules\\php\\PHP-5.6\\pear;h:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;h:\\openserver\\modules\\php\\PHP-5.6;h:\\openserver\\modules\\wget\\bin;h:\\openserver\\modules\\database\\MySQL-5.6\\bin;h:\\openserver\\modules\\http\\Apache-2.4\\bin;h:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'job50.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/job50.git/frontend/web/index.php'
+    'REMOTE_PORT' => '50959'
+    'REDIRECT_URL' => '/frontend/web/site/rezult'
+    'REDIRECT_QUERY_STRING' => 'id=10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=10'
+    'REQUEST_URI' => '/site/rezult?id=10'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1552909647.574
+    'REQUEST_TIME' => 1552909647
+    'argv' => [
+        0 => 'id=10'
+    ]
+    'argc' => 1
+]
+2019-03-18 17:47:52 [127.0.0.1][-][-][error][yii\web\HeadersAlreadySentException] exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in H:\OpenServer\domains\job50.git\vendor\dompdf\dompdf\src\Adapter\CPDF.php on line 1154.' in H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 H:\OpenServer\domains\job50.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2019-03-18 17:47:49 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '2'
+    '_pjax' => '#p0'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-frontend' => '1bovgdf8cmoeicv7lgb3h29f54'
+    '_csrf-frontend' => 'ac518ea7f6432fd3fabf6f45724ae86664a2509bcd4e777057ced4ef515e7ecca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"WShqRL5oii5Gm2rv9l_x-AB-adVJPjBB\";}'
+    'advanced-backend' => 'tird5epajkhg9g20k5f9ot2j26'
+    '_csrf-backend' => '8aeb89107d024b77173b43ad1b67a4a2930099f15c54f7ed2e61b2fd67e5a048a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"b76xnH8nfoUGDYjiz-QI33QbJg38qEK0\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'job50.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => 'GiO6fqcEtkkNbgwp8tC7Q22R3jdGmxEHhCUJ_rIelSN4FIwGyUyOJ2sBWW62idEqF7yPfnWoQGXOQjrGw1veEw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#p0'
+    'HTTP_REFERER' => 'http://job50.git/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-frontend=1bovgdf8cmoeicv7lgb3h29f54; _csrf-frontend=ac518ea7f6432fd3fabf6f45724ae86664a2509bcd4e777057ced4ef515e7ecca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22WShqRL5oii5Gm2rv9l_x-AB-adVJPjBB%22%3B%7D; advanced-backend=tird5epajkhg9g20k5f9ot2j26; _csrf-backend=8aeb89107d024b77173b43ad1b67a4a2930099f15c54f7ed2e61b2fd67e5a048a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22b76xnH8nfoUGDYjiz-QI33QbJg38qEK0%22%3B%7D'
+    'PATH' => 'h:\\openserver\\modules\\php\\PHP-5.6\\ext;h:\\openserver\\modules\\php\\PHP-5.6\\pear;h:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;h:\\openserver\\modules\\php\\PHP-5.6;h:\\openserver\\modules\\wget\\bin;h:\\openserver\\modules\\database\\MySQL-5.6\\bin;h:\\openserver\\modules\\http\\Apache-2.4\\bin;h:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'job50.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/job50.git/frontend/web/index.php'
+    'REMOTE_PORT' => '50992'
+    'REDIRECT_URL' => '/frontend/web/site/rezult'
+    'REDIRECT_QUERY_STRING' => 'id=2&_pjax=%23p0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=2&_pjax=%23p0'
+    'REQUEST_URI' => '/site/rezult?id=2&_pjax=%23p0'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1552909669.448
+    'REQUEST_TIME' => 1552909669
+    'argv' => [
+        0 => 'id=2&_pjax=%23p0'
+    ]
+    'argc' => 1
+]
+2019-03-18 17:47:53 [127.0.0.1][-][-][error][yii\web\HeadersAlreadySentException] exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in H:\OpenServer\domains\job50.git\vendor\dompdf\dompdf\src\Adapter\CPDF.php on line 1154.' in H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 H:\OpenServer\domains\job50.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2019-03-18 17:47:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-frontend' => '1bovgdf8cmoeicv7lgb3h29f54'
+    '_csrf-frontend' => 'ac518ea7f6432fd3fabf6f45724ae86664a2509bcd4e777057ced4ef515e7ecca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"WShqRL5oii5Gm2rv9l_x-AB-adVJPjBB\";}'
+    'advanced-backend' => 'tird5epajkhg9g20k5f9ot2j26'
+    '_csrf-backend' => '8aeb89107d024b77173b43ad1b67a4a2930099f15c54f7ed2e61b2fd67e5a048a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"b76xnH8nfoUGDYjiz-QI33QbJg38qEK0\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'job50.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://job50.git/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-frontend=1bovgdf8cmoeicv7lgb3h29f54; _csrf-frontend=ac518ea7f6432fd3fabf6f45724ae86664a2509bcd4e777057ced4ef515e7ecca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22WShqRL5oii5Gm2rv9l_x-AB-adVJPjBB%22%3B%7D; advanced-backend=tird5epajkhg9g20k5f9ot2j26; _csrf-backend=8aeb89107d024b77173b43ad1b67a4a2930099f15c54f7ed2e61b2fd67e5a048a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22b76xnH8nfoUGDYjiz-QI33QbJg38qEK0%22%3B%7D'
+    'PATH' => 'h:\\openserver\\modules\\php\\PHP-5.6\\ext;h:\\openserver\\modules\\php\\PHP-5.6\\pear;h:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;h:\\openserver\\modules\\php\\PHP-5.6;h:\\openserver\\modules\\wget\\bin;h:\\openserver\\modules\\database\\MySQL-5.6\\bin;h:\\openserver\\modules\\http\\Apache-2.4\\bin;h:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'job50.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/job50.git/frontend/web/index.php'
+    'REMOTE_PORT' => '50995'
+    'REDIRECT_URL' => '/frontend/web/site/rezult'
+    'REDIRECT_QUERY_STRING' => 'id=2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=2'
+    'REQUEST_URI' => '/site/rezult?id=2'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1552909670.459
+    'REQUEST_TIME' => 1552909670
+    'argv' => [
+        0 => 'id=2'
+    ]
+    'argc' => 1
+]
+2019-03-18 17:49:39 [127.0.0.1][-][-][error][yii\web\HeadersAlreadySentException] exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in H:\OpenServer\domains\job50.git\vendor\dompdf\dompdf\src\Adapter\CPDF.php on line 1154.' in H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 H:\OpenServer\domains\job50.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2019-03-18 17:49:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '5'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-frontend' => '1bovgdf8cmoeicv7lgb3h29f54'
+    '_csrf-frontend' => 'ac518ea7f6432fd3fabf6f45724ae86664a2509bcd4e777057ced4ef515e7ecca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"WShqRL5oii5Gm2rv9l_x-AB-adVJPjBB\";}'
+    'advanced-backend' => 'tird5epajkhg9g20k5f9ot2j26'
+    '_csrf-backend' => '8aeb89107d024b77173b43ad1b67a4a2930099f15c54f7ed2e61b2fd67e5a048a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"b76xnH8nfoUGDYjiz-QI33QbJg38qEK0\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'job50.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://job50.git/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-frontend=1bovgdf8cmoeicv7lgb3h29f54; _csrf-frontend=ac518ea7f6432fd3fabf6f45724ae86664a2509bcd4e777057ced4ef515e7ecca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22WShqRL5oii5Gm2rv9l_x-AB-adVJPjBB%22%3B%7D; advanced-backend=tird5epajkhg9g20k5f9ot2j26; _csrf-backend=8aeb89107d024b77173b43ad1b67a4a2930099f15c54f7ed2e61b2fd67e5a048a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22b76xnH8nfoUGDYjiz-QI33QbJg38qEK0%22%3B%7D'
+    'PATH' => 'h:\\openserver\\modules\\php\\PHP-5.6\\ext;h:\\openserver\\modules\\php\\PHP-5.6\\pear;h:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;h:\\openserver\\modules\\php\\PHP-5.6;h:\\openserver\\modules\\wget\\bin;h:\\openserver\\modules\\database\\MySQL-5.6\\bin;h:\\openserver\\modules\\http\\Apache-2.4\\bin;h:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'job50.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/job50.git/frontend/web/index.php'
+    'REMOTE_PORT' => '51096'
+    'REDIRECT_URL' => '/frontend/web/site/rezult'
+    'REDIRECT_QUERY_STRING' => 'id=5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=5'
+    'REQUEST_URI' => '/site/rezult?id=5'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1552909776.556
+    'REQUEST_TIME' => 1552909776
+    'argv' => [
+        0 => 'id=5'
+    ]
+    'argc' => 1
+]
+2019-03-19 17:44:24 [127.0.0.1][-][-][error][yii\web\HeadersAlreadySentException] exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in H:\OpenServer\domains\job50.git\vendor\dompdf\dompdf\src\Adapter\CPDF.php on line 1154.' in H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 H:\OpenServer\domains\job50.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2019-03-19 17:44:20 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '11'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => 'slhe4s8879cd0gemu6c4jnbm45'
+    '_csrf-backend' => '420a491daf7681f1579927505573eb932835fa659732b45ad80935b41bc4883ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"3FjlhSMf42JMBIQZTdyhLJJp9klSS1Yb\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'job50.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://job50.git/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=slhe4s8879cd0gemu6c4jnbm45; _csrf-backend=420a491daf7681f1579927505573eb932835fa659732b45ad80935b41bc4883ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%223FjlhSMf42JMBIQZTdyhLJJp9klSS1Yb%22%3B%7D'
+    'PATH' => 'h:\\openserver\\modules\\php\\PHP-5.6\\ext;h:\\openserver\\modules\\php\\PHP-5.6\\pear;h:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;h:\\openserver\\modules\\php\\PHP-5.6;h:\\openserver\\modules\\wget\\bin;h:\\openserver\\modules\\database\\MySQL-5.6\\bin;h:\\openserver\\modules\\http\\Apache-2.4\\bin;h:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'job50.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/job50.git/frontend/web/index.php'
+    'REMOTE_PORT' => '59705'
+    'REDIRECT_URL' => '/frontend/web/site/rezult'
+    'REDIRECT_QUERY_STRING' => 'id=11'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=11'
+    'REQUEST_URI' => '/site/rezult?id=11'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1552995860.197
+    'REQUEST_TIME' => 1552995860
+    'argv' => [
+        0 => 'id=11'
+    ]
+    'argc' => 1
+]
+2019-03-20 22:31:25 [127.0.0.1][-][-][error][yii\web\HeadersAlreadySentException] exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in H:\OpenServer\domains\job50.git\vendor\dompdf\dompdf\src\Adapter\CPDF.php on line 1154.' in H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 H:\OpenServer\domains\job50.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2019-03-20 22:31:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '5'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => '8ovhu90huch651rv97bdcbtgs6'
+    '_csrf-backend' => '604bfbcd77dafde639f2831dc82b9dc3967364f13e10a2d1e1276734d6ae2b4ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"A4yI_rBEjEYygRfqkEBoha9MdvlKmVGw\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'job50.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://job50.git/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=8ovhu90huch651rv97bdcbtgs6; _csrf-backend=604bfbcd77dafde639f2831dc82b9dc3967364f13e10a2d1e1276734d6ae2b4ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22A4yI_rBEjEYygRfqkEBoha9MdvlKmVGw%22%3B%7D'
+    'PATH' => 'h:\\openserver\\modules\\php\\PHP-5.6\\ext;h:\\openserver\\modules\\php\\PHP-5.6\\pear;h:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;h:\\openserver\\modules\\php\\PHP-5.6;h:\\openserver\\modules\\wget\\bin;h:\\openserver\\modules\\database\\MySQL-5.6\\bin;h:\\openserver\\modules\\http\\Apache-2.4\\bin;h:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'job50.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/job50.git/frontend/web/index.php'
+    'REMOTE_PORT' => '52819'
+    'REDIRECT_URL' => '/frontend/web/site/rezult'
+    'REDIRECT_QUERY_STRING' => 'id=5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=5'
+    'REQUEST_URI' => '/site/rezult?id=5'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1553099481.098
+    'REQUEST_TIME' => 1553099481
+    'argv' => [
+        0 => 'id=5'
+    ]
+    'argc' => 1
+]
+2019-03-20 22:45:24 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "example.php".' in H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('example.php', Array)
+#1 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 H:\OpenServer\domains\job50.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 H:\OpenServer\domains\job50.git\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-03-20 22:45:24 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => '8ovhu90huch651rv97bdcbtgs6'
+    '_csrf-backend' => '604bfbcd77dafde639f2831dc82b9dc3967364f13e10a2d1e1276734d6ae2b4ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"A4yI_rBEjEYygRfqkEBoha9MdvlKmVGw\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'job50.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'jQkL5gKBBZVRPra79dX805HolM4IIgiCp2gARGSEgFvMPXKvXfNH0Dt778KSh5qi-q3WoWBDMc_DHmwPCdLHLA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'
+    'HTTP_REFERER' => 'http://job50.git/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=8ovhu90huch651rv97bdcbtgs6; _csrf-backend=604bfbcd77dafde639f2831dc82b9dc3967364f13e10a2d1e1276734d6ae2b4ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22A4yI_rBEjEYygRfqkEBoha9MdvlKmVGw%22%3B%7D'
+    'PATH' => 'h:\\openserver\\modules\\php\\PHP-5.6\\ext;h:\\openserver\\modules\\php\\PHP-5.6\\pear;h:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;h:\\openserver\\modules\\php\\PHP-5.6;h:\\openserver\\modules\\wget\\bin;h:\\openserver\\modules\\database\\MySQL-5.6\\bin;h:\\openserver\\modules\\http\\Apache-2.4\\bin;h:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'job50.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/job50.git/frontend/web/index.php'
+    'REMOTE_PORT' => '53566'
+    'REDIRECT_URL' => '/frontend/web/example.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/example.php'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1553100324.319
+    'REQUEST_TIME' => 1553100324
+    'argv' => []
+    'argc' => 0
+]
+2019-03-25 23:16:40 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index".' in H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('index', Array)
+#1 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 H:\OpenServer\domains\job50.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 H:\OpenServer\domains\job50.git\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-03-25 23:16:40 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = [
+    'test' => 'test'
+    '_pjax' => '#pjax-datatable'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => '1g30j11cm7n1b1qnged3onhk73'
+    '_csrf-backend' => 'e8fad6f5f9fb62eb6d6352a0cc08341a8c50dca308d1a636557dfd64ea95702aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"6QpDiOedk-Q-TBzZpmAl58KiOpkKyKOA\";}'
+    'XDEBUG_SESSION' => '15301'
+    'advanced-frontend' => '1vc9ivcg4ol4kmq6a3ipnj9q06'
+    '_csrf-frontend' => 'b06e682c0ca8c13ec09706aebaad58ee3528821100e30ed09b4112729f796f3ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tFWl_DKIPe-ETmtqSy7sZwhRciMpvv_g\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'job50.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '33'
+    'HTTP_ORIGIN' => 'http://job50.git'
+    'HTTP_X_CSRF_TOKEN' => 'HrAezJ3gkvI9KmaNfh2eJFnFcQnCvGPHYIQa-x1LVp8o4W6I9K_3llYHN6AqX-R-KagwZfeEKK4v9HGwZAAZ3g=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#pjax-datatable'
+    'HTTP_REFERER' => 'http://job50.git/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=1g30j11cm7n1b1qnged3onhk73; _csrf-backend=e8fad6f5f9fb62eb6d6352a0cc08341a8c50dca308d1a636557dfd64ea95702aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%226QpDiOedk-Q-TBzZpmAl58KiOpkKyKOA%22%3B%7D; XDEBUG_SESSION=15301; advanced-frontend=1vc9ivcg4ol4kmq6a3ipnj9q06; _csrf-frontend=b06e682c0ca8c13ec09706aebaad58ee3528821100e30ed09b4112729f796f3ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tFWl_DKIPe-ETmtqSy7sZwhRciMpvv_g%22%3B%7D'
+    'PATH' => 'h:\\openserver\\modules\\php\\PHP-5.6\\ext;h:\\openserver\\modules\\php\\PHP-5.6\\pear;h:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;h:\\openserver\\modules\\php\\PHP-5.6;h:\\openserver\\modules\\wget\\bin;h:\\openserver\\modules\\database\\MySQL-5.6\\bin;h:\\openserver\\modules\\http\\Apache-2.4\\bin;h:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'job50.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/job50.git/frontend/web/index.php'
+    'REMOTE_PORT' => '63345'
+    'REDIRECT_URL' => '/frontend/web/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1553534200.307
+    'REQUEST_TIME' => 1553534200
+    'argv' => []
+    'argc' => 0
+]
+2019-03-25 23:17:03 [127.0.0.1][-][1vc9ivcg4ol4kmq6a3ipnj9q06][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index".' in H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('index', Array)
+#1 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 H:\OpenServer\domains\job50.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 H:\OpenServer\domains\job50.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 H:\OpenServer\domains\job50.git\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-03-25 23:17:03 [127.0.0.1][-][1vc9ivcg4ol4kmq6a3ipnj9q06][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[4,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => '1g30j11cm7n1b1qnged3onhk73'
+    '_csrf-backend' => 'e8fad6f5f9fb62eb6d6352a0cc08341a8c50dca308d1a636557dfd64ea95702aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"6QpDiOedk-Q-TBzZpmAl58KiOpkKyKOA\";}'
+    'XDEBUG_SESSION' => '15301'
+    'advanced-frontend' => '1vc9ivcg4ol4kmq6a3ipnj9q06'
+    '_csrf-frontend' => 'b06e682c0ca8c13ec09706aebaad58ee3528821100e30ed09b4112729f796f3ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tFWl_DKIPe-ETmtqSy7sZwhRciMpvv_g\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'job50.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=8f86d76b4b779d6f2ba4a49c45a4a358dfb90078ca5b2bf8dca97f3d8896c849a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=1g30j11cm7n1b1qnged3onhk73; _csrf-backend=e8fad6f5f9fb62eb6d6352a0cc08341a8c50dca308d1a636557dfd64ea95702aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%226QpDiOedk-Q-TBzZpmAl58KiOpkKyKOA%22%3B%7D; XDEBUG_SESSION=15301; advanced-frontend=1vc9ivcg4ol4kmq6a3ipnj9q06; _csrf-frontend=b06e682c0ca8c13ec09706aebaad58ee3528821100e30ed09b4112729f796f3ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tFWl_DKIPe-ETmtqSy7sZwhRciMpvv_g%22%3B%7D'
+    'PATH' => 'h:\\openserver\\modules\\php\\PHP-5.6\\ext;h:\\openserver\\modules\\php\\PHP-5.6\\pear;h:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;h:\\openserver\\modules\\php\\PHP-5.6;h:\\openserver\\modules\\wget\\bin;h:\\openserver\\modules\\database\\MySQL-5.6\\bin;h:\\openserver\\modules\\http\\Apache-2.4\\bin;h:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'job50.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/job50.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/job50.git/frontend/web/index.php'
+    'REMOTE_PORT' => '63378'
+    'REDIRECT_URL' => '/frontend/web/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1553534222.755
+    'REQUEST_TIME' => 1553534222
+    'argv' => []
+    'argc' => 0
+]

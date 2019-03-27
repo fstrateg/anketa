@@ -12,6 +12,8 @@ use yii\helpers\Url;
     <style>
         body { font-family: DejaVu Sans, sans-serif; font-size: small; }
     </style>
+</head>
+<body>
     <h3>Анкета <?=$model->fio?></h3>
     <p>Дата заполнения <?=$model->dat?><br />
         Ссылка на видео <a href="<?= Url::base(true); ?>/uploads/<?=$model->video?>"><?=$model->video?></a>
@@ -28,3 +30,6 @@ foreach($model->respondes as $item)
     </p>
     <?
 }
+?>
+</body>
+</html>

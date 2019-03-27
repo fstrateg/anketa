@@ -15,7 +15,34 @@ class RezultModel extends Model
     var $self;
     var $video;
 
-    public function initRezult($id)
+    public static function InitInstance($id, $where = null)
+    {
+        $rez=new RezultModel();
+        $rez->initRezult($id);
+        return $rez;
+    }
+
+    public static function filter($id, $where)
+    {
+        $rez=new RezultModel();
+        $rez->initRezult($id);
+        foreach($where as $key=>$vl)
+        {
+            if (substr($key,1,1)!='q') continue;
+            if (empty($vl)) continue;
+            $q=str_replace('q','',$key)+0;
+            foreach($rez->respondes as $r)
+            {
+                if ($r->id==$q)
+                {
+                    if ($r->val!=$vl) $rez=null;
+                }
+            }
+        }
+        return $rez;
+    }
+
+    public function initRezult($id, $where = '')
     {
         $this->id=$id;
         $rw=AnketaRecord::find()->where(['id'=>$id])->one();

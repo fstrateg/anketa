@@ -2,6 +2,8 @@
 namespace backend\controllers;
 
 use common\models\Access;
+use frontend\models\AnketaRecord;
+use frontend\models\RezultModel;
 use Yii;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
@@ -10,6 +12,7 @@ use common\models\LoginForm;
 use yii\data\ActiveDataProvider;
 use yii\web\ForbiddenHttpException;
 use backend\models\Users;
+use backend\models\NotesModel;
 use yii\helpers\Url;
 /**
  * Site controller
@@ -30,7 +33,7 @@ class SiteController extends Controller
                         'allow' => true,
                     ],
                     [
-                        'actions' => ['logout', 'index','users'],
+                        'actions' => ['logout', 'index','users','filter','notes','savenotes','viewanketa','saveanketa'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
@@ -84,6 +87,39 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    public function actionFilter()
+    {
+        return $this->render('filter');
+    }
+
+    public function actionNotes($id)
+    {
+        $model=new NotesModel();
+        $model->initVl($id);
+        return $this->renderAjax('notes',['model'=>$model]);
+    }
+
+    public function actionSavenotes()
+    {
+        $model=new NotesModel();
+        $val=yii::$app->request->post();
+        $model->save($val);
+        //print_r($val);
+        return 'OK';
+    }
+
+    public function actionSaveanketa()
+    {
+        return $this->actionSavenotes();
+    }
+
+    public function actionViewanketa($id)
+    {
+        $notes=new NotesModel();
+        $notes->initVl($id);
+        $model=RezultModel::InitInstance($id);
+        return $this->renderAjax('anketa',['model'=>$model,'notes'=>$notes]);
+    }
     /**
      * Login action.
      *

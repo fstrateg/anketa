@@ -94,7 +94,7 @@ class SiteController extends Controller
             if ($model->validate())
             {
                 $anketa->save($req->id);
-                sendMessage($req);
+                $this->sendMessage($req);
                 $this->redirect('done');
             }
         }

@@ -106,13 +106,14 @@ echo GridView::widget([
                     ]).' ';
                 },
                 'delete' => function ($url, $model, $key) {
-                    $url=Url::to(['city','m'=>'delete','id'=>$key]);
-                    return Html::a('<span class="glyphicon glyphicon-remove"></span>', $url, [
+                    $url="javascript: deleteAnketa($key)";
+                    $html=Html::a('<span class="glyphicon glyphicon-remove text-danger"></span>', $url, [
                         'title' => 'Удалить',
                         'data-confirm' => 'Вы уверены что хотите удалить?',
                         'data-method' => 'post',
-                        'data-pjax' => '0',
+                        'data-pjax' => '0'
                     ]);
+                    return $html;
                 },
             ],
         ],
@@ -191,6 +192,18 @@ $script = <<< JS
                     //$.pjax.reload({container: '#pjax-datatable', timeout: false});
                     filter();
                     init();
+                }
+            });
+    }
+
+    function deleteAnketa(id)
+    {
+        var jqxhr = $.get( "/admin/delete?id="+id)
+            .done(function(data){
+                if (data=="OK")
+                {
+                    filter();
+                     init();
                 }
             });
     }

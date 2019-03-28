@@ -90,4 +90,19 @@ Select id,fio,dat,video,status,note from anketa a where id in (
         if (empty($_POST['suit'])) return '';
         return "status='".$_POST['suit']."'";
     }
+
+    public function delete($id)
+    {
+        $rec=AnketaRecord::findOne($id);
+        if (!empty($rec->video)) {
+
+            $root = str_replace('backend','frontend',\Yii::getAlias('@webroot'));
+            $ds = DIRECTORY_SEPARATOR;
+            $file=$root . $ds . 'uploads' .$ds. $rec->video;
+            if (file_exists($file))
+                unlink($file);
+        }
+        AnketadetRecord::deleteAll(['anketaid'=>$id]);
+        AnketaRecord::deleteAll(['id'=>$id]);
+    }
 }

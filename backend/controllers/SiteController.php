@@ -1,6 +1,7 @@
 <?php
 namespace backend\controllers;
 
+use backend\models\ModelAnketa;
 use common\models\Access;
 use frontend\models\AnketaRecord;
 use frontend\models\RezultModel;
@@ -33,7 +34,7 @@ class SiteController extends Controller
                         'allow' => true,
                     ],
                     [
-                        'actions' => ['logout', 'index','users','filter','notes','savenotes','viewanketa','saveanketa'],
+                        'actions' => ['logout', 'index','users','filter','notes','savenotes','viewanketa','saveanketa','delete'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
@@ -87,6 +88,13 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    public function actionDelete($id)
+    {
+        $id=$id+0;
+        $model=new ModelAnketa();
+        $model->delete($id);
+        return 'OK';
+    }
     public function actionFilter()
     {
         return $this->render('filter');
